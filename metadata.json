@@ -1,0 +1,6 @@
+{
+  "name": "Smart Waste AI",
+  "description": "AI-based waste image classification, recycling guidance assistant, and computer vision analytics for sustainable waste management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

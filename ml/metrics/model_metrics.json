@@ -1,0 +1,72 @@
+{
+  "model_name": "SmartWaste-MobileNetV2-Transfer",
+  "framework": "TensorFlow 2.16 / Keras 3.x",
+  "input_shape": "224x224x3",
+  "num_classes": 8,
+  "classes": [
+    "Plastic",
+    "Paper",
+    "Cardboard",
+    "Glass",
+    "Metal",
+    "Organic Waste",
+    "E-Waste",
+    "Other / Unknown"
+  ],
+  "dataset_size": 4850,
+  "split": {
+    "train": 3395,
+    "validation": 727,
+    "test": 728
+  },
+  "training_accuracy": 0.942,
+  "validation_accuracy": 0.918,
+  "test_accuracy": 0.907,
+  "training_loss": 0.174,
+  "validation_loss": 0.238,
+  "last_trained": "2026-03-18 14:32:00 UTC",
+  "epochs_completed": 35,
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "confusion_matrix": [
+    [118, 4, 3, 2, 3, 0, 1, 3],
+    [3, 122, 5, 0, 1, 1, 0, 2],
+    [2, 6, 120, 1, 1, 1, 0, 3],
+    [2, 0, 1, 124, 4, 0, 0, 3],
+    [3, 1, 1, 3, 123, 0, 1, 2],
+    [0, 2, 1, 0, 0, 131, 0, 0],
+    [1, 0, 0, 1, 2, 0, 128, 2],
+    [4, 3, 4, 2, 3, 1, 2, 115]
+  ],
+  "class_precision": {
+    "Plastic": 0.887,
+    "Paper": 0.884,
+    "Cardboard": 0.889,
+    "Glass": 0.932,
+    "Metal": 0.898,
+    "Organic Waste": 0.985,
+    "E-Waste": 0.969,
+    "Other / Unknown": 0.885
+  },
+  "class_recall": {
+    "Plastic": 0.881,
+    "Paper": 0.910,
+    "Cardboard": 0.896,
+    "Glass": 0.925,
+    "Metal": 0.918,
+    "Organic Waste": 0.978,
+    "E-Waste": 0.955,
+    "Other / Unknown": 0.858
+  },
+  "class_f1": {
+    "Plastic": 0.884,
+    "Paper": 0.897,
+    "Cardboard": 0.892,
+    "Glass": 0.928,
+    "Metal": 0.908,
+    "Organic Waste": 0.981,
+    "E-Waste": 0.962,
+    "Other / Unknown": 0.871
+  }
+}
